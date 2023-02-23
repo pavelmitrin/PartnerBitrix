@@ -309,14 +309,37 @@
 		<section class="table">
 			<div class="container">
 				<div class="row border-bottom">
-					<div class="col-12-col-lg-4 b-table__title">
+					<div class="col-12 col-lg-4 b-table__title">
 						Безопасность
 					</div>
-					<div class="col-12 col-md-6 col-lg-4">
-						
+					<div class="col-12 col-md-6 col-lg-4 b-table__links">
+						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="1">Проактивная защита</a>
+						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="2">Сертификаты</a>
+						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="3">Технология SiteUpdate</a>
+						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="4">Аудит безопасности</a>
+						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="5">Нагрузочное тестирование</a>
+						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="6">Интеграция с «1С»</a>
 					</div>
-					<div class="col-12 col-md-6 col-lg-4">
+					<div class="col-12 col-md-6 col-lg-4 b-table__links">
+						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="7">Архитектура</a>
+						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="8">Необходимость защиты</a>
+						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="9">Веб-окружение</a>
+						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="10">Двухфакторная авторизация</a>
+						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="11">Интеграция с внешними сервисами</a>
+					</div>
+				</div>
+				<div class="row align-items-center border-bottom">
+					<div class="col-12 col-lg-4 b-table__title">Требования</div>
 
+					<div class="col-12 col-md-6 col-lg-4 b-table__links">
+						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="12">Технические требования</a>
+					</div>
+				</div>
+				<div class="row align-items-center border-bottom">
+					<div class="col-12 col-lg-4 b-table__title">Документация</div>
+
+					<div class="col-12 col-md-6 col-lg-4 b-table__links">
+						<a class="btn pb-1 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="13">Документация по Битрикс24 в коробке</a>
 					</div>
 				</div>
 			</div>
@@ -346,6 +369,27 @@
 		</div>
 	</div>
 
+	<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasTableLink" aria-labelledby="offcanvasTableLinkLabel">
+		<div class="offcanvas-header">
+		  <h5 class="offcanvas-title" id="offcanvasTableLinkLabel">Offcanvas</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+		</div>
+		<div class="offcanvas-body">
+		  <div>
+			 Какой-то текст в качестве заполнителя. В реальной жизни у вас могут быть элементы, которые Вы выбрали. Нравится, текст, изображения, списки и т. д.
+		  </div>
+		  <div class="dropdown mt-3">
+			 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+				Кнопка раскрывающегося списка
+			 </button>
+			 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<li><a class="dropdown-item" href="#">Действие</a></li>
+				<li><a class="dropdown-item" href="#">Другое действие</a></li>
+				<li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+			 </ul>
+		  </div>
+		</div>
+	 </div>
 
 	<script src="vendors/bootstrap.bundle.min.js"></script>
 	<script src="js/app.js"></script>

@@ -128,3 +128,60 @@ a.nav-link {
 		color: var(--bg-blue-color);
 	}
 }
+
+/* table */
+.b-table__title {
+	font-size: 1.75em;
+	line-height: 1.2;
+	@media (min-width:576px) {
+		& {
+			font-size: 2rem;
+		}
+	}
+	@media (min-width:768px) {
+		& {
+			font-size: 2.25rem;
+		}
+	}
+	@media (min-width:992px) {
+		& {
+			font-size: 2.5rem;
+		}
+	}
+	@media (min-width:1200px) {
+		& {
+			font-size: 1.75rem;
+		}
+	}
+}
+.b-table__links {
+	a{
+		font-size: 1.2rem;
+		line-height: 1.5;
+		@media (min-width:992px) {
+			& {
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
+a.b-table__link {
+	position: relative;
+	display: flex;
+	align-items: center;
+	&::before {
+		content: '';
+		position: absolute;
+		display: block;
+		width: 15px;
+		height: 15px;
+		top: 0.6em;
+		padding: 0.375em;
+		margin-left: -1.125em;
+		margin-right: 0.75em;
+		background: url("../img/table/icon-bullit.svg") no-repeat;
+		line-height: 0;
+		// vertical-align: middle;
+
+	}
+}
