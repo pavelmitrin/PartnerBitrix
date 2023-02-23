@@ -1,3 +1,7 @@
+html {
+  scroll-padding-top: 61px;
+}
+
 body {
   font-family: var(--font-roboto);
 }
@@ -64,7 +68,7 @@ a.nav-link.active {
 }
 
 /* head */
-.head, .footer {
+.head, .what-price, .footer {
   background: #409eef;
   background: linear-gradient(135deg, #2fc7f7 0%, #409eef 100%);
 }
@@ -191,7 +195,27 @@ a.b-table__link::before {
   line-height: 0;
 }
 
-/* price */
+/* what-price */
+.what-price h2 {
+  font-size: 1.75rem;
+}
+@media (min-width: 768px) {
+  .what-price h2 {
+    font-size: 2.25rem;
+  }
+}
+@media (min-width: 992px) {
+  .what-price h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .what-price h2 {
+    font-size: 3rem;
+  }
+}
+
+/* coast */
 .b-card {
   border-radius: 18px;
   background-color: rgba(202, 242, 255, 0.45);

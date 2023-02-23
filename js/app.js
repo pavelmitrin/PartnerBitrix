@@ -1,5 +1,8 @@
-/* change active link header */
+const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+	target: '#collapseMenu'
+ });
 
+/* change active link header */
 const headerLinks = document.querySelectorAll(".header .navbar-nav .nav-link");
 headerLinks.forEach(link => {
 	link.addEventListener('click', () => {
@@ -21,3 +24,24 @@ function checkWidthToggleClassToggler () {
 	}
 }
 
+
+
+ // Fetch all the forms we want to apply custom Bootstrap validation styles to
+ const forms = document.querySelectorAll('.needs-validation')
+
+ // Loop over them and prevent submission
+ Array.from(forms).forEach(form => {
+	form.addEventListener('submit', event => {
+	  if (!form.checkValidity()) {
+		 event.preventDefault()
+		 event.stopPropagation()
+	  }
+
+	  form.classList.add('was-validated')
+	}, false)
+ })
+
+// Form validate
+const tel = document.querySelector("#inputTel1");
+const telMask = new Inputmask("9(999)999-99-99");
+telMask.mask(tel);
