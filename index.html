@@ -27,7 +27,7 @@
 				</a>
 				<div class="collapse navbar-collapse justify-content-between text-center" id="collapseMenu">
 					<div class="nav navbar-nav flex-fill justify-content-center my-2 my-lg-0">
-						<a class="nav-link px-3 py-1 text-black active" aria-current="page" href="#">Возможности</a>
+						<a class="nav-link px-3 py-1 text-black active" aria-current="page" href="#possibilities">Возможности</a>
 						<a class="nav-link px-3 py-1 text-black" href="#price">Цены</a>
 						<a class="nav-link px-3 py-1 text-black" href="#integration">Интеграции</a>
 						<a class="nav-link px-3 py-1 text-black" href="#implementation">Внедрение</a>
@@ -40,311 +40,358 @@
 			</div>
 		</nav >
 	</header>
-	<main class="main" data-bs-spy="scroll" data-bs-target="#navbar-example">
-		<section class="head py-5">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-12 col-md-6 text-white">
-						<h1 class="b-section__title">Коробочная версия</h1>
-						<p class="b-section__subtitle">Это корпоративный Битрикс24 на вашем сервере с вашими индивидуальными настройками, доработками и брендом.</p>
-						<button type="button" class="btn b-btn-green px-2" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
+	<main class="main" data-bs-spy="scroll" data-bs-target="#collapseMenu">
+		<div class="possibilities" id="possibilities">
+			<section class="head py-5">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6 text-white">
+							<h1 class="b-section__title">Коробочная версия</h1>
+							<p class="b-section__subtitle">Это корпоративный Битрикс24 на вашем сервере с вашими индивидуальными настройками, доработками и брендом.</p>
+							<button type="button" class="btn b-btn-green px-2" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
+						</div>
+						<div class="col-12 col-md-6">
+							<img src="img/head/box-corp.png" class="img-fluid" alt="">
+						</div>
 					</div>
-					<div class="col-12 col-md-6">
-						<img src="img/head/box-corp.png" class="img-fluid" alt="">
+				</div>
+			</section>
+			<section class="laptop position-relative overflow-hidden">
+				<img src="img/laptop/left-flower.png" class="position-absolute top-0 start-0 d-none d-sm-block" alt="">
+				<div class="container position-relative py-5">
+					<div class="row align-items-center">
+						<div class="col-12 col-lg-6">
+							<h1 class="b-section__title pb-5">Расширяет возможности</h1>
+							<div class="b-laptop__cards d-flex flex-wrap">
+								<div class="col-6 b-laptop__card px-3">
+									<div class="b-laptop__card-picture"><i class="bi bi-coin"></i></div>
+									<p class="b-laptop__card-text">Устанавливается на сервер компании или своего провайдера</p>
+								</div>
+								<div class="col-6 b-laptop__card px-3">
+									<div class="b-laptop__card-picture"><i class="bi bi-graph-up"></i></div>
+									<p class="b-laptop__card-text">Индивидуальные настройки бизнес-логики и интерфейса</p>
+								</div>
+								<div class="col-6 b-laptop__card px-3">
+									<div class="b-laptop__card-picture"><i class="bi bi-printer"></i></div>
+									<p class="b-laptop__card-text">Больше возможностей и интеграций, чем в облачной версии</p>
+								</div>
+								<div class="col-6 b-laptop__card px-3">
+									<div class="b-laptop__card-picture"><i class="bi bi-database-down"></i></div>
+									<p class="b-laptop__card-text">При переходе с облачного Битрикс24 данные сохраняются</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-6 d-none d-lg-block">
+							<img src="img/laptop/right-laptop.png" class="" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="repeat py-4">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Внутренние коммуникации</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">1C-Битрикс24 (коробочная версия Битрикс24) — это цифровое рабочее пространство для вашей компании. Ставьте и контролируйте задачи, отправляйте файлы и голосовые сообщения, общайтесь в чате, обсуждайте планы в профильных группах и принимайте взвешенные решения.</p>
+								<p class="py-2">Будьте всегда на связи и в курсе событий: используйте для работы десктопное и мобильное приложения.</p>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/1.png" class="img-fluid b-repeat__img" alt="">
+						</div>
+					</div>
+					<div class="row align-items-center mb-5">
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/2.png" class="img-fluid b-repeat__img" alt="">
+						</div>
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">HR-менеджмент</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">1C-Битрикс24 помогает бизнесу организовать лёгкий вход нового сотрудника в коллектив, быстрое знакомство со структурой компании, оповещение всей команды о появлении нового коллеги.</p>
+								<p class="py-2">1C-Битрикс24 просит нового человека сразу заполнить Профиль, разместить фотографию, рассказать о себе. Новый сотрудник вступает в Группы по роду его занятий и по своим интересам, находит единомышленников.</p>
+							</div>
+							<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
+						</div>
+						
+					</div>
+	
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Проектный менеджмент</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">Координируйте усилия команды с помощью проектных инструментов 1C-Битрикс24. Определяйте роли и права доступа каждого. Планируйте этапы, храните все документы на Диске, ведите календарь, общайтесь в чате Проекта.</p>
+								<p class="py-2">Проекты, созданные в 1C-Битрикс24, обязательно будут завершены в срок и с лучшим результатом.</p>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/3.png" class="img-fluid b-repeat__img" alt="">
+						</div>
+					</div>
+					<div class="row align-items-center mb-5">
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/4.png" class="img-fluid b-repeat__img" alt="">
+						</div>
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">CRM и управление клиентской базой</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">В CRM вы ведёте своих клиентов по всем этапам жизненного цикла, изучаете их поведение, создаёте сегменты по заданным критериям, вовремя даёте всю необходимую для них информацию.</p>
+								<p class="py-2">Звоните, пишите клиенту в один клик прямо из карточки CRM, угадывайте его желания и делайте выгодные предложения.</p>
+							</div>
+							<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
+						</div>
+						
+					</div>
+	
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Автоматизация продаж</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">Автоматизируйте продажи с помощью роботов и бизнес-процессов. Делегируйте важную, трудоёмкую и рутинную работу с клиентом 1C-Битрикс24.</p>
+								<p class="py-2">У ваших менеджеров автоматически появятся новые задачи и вовремя придут напоминания. А клиенты получат все сообщения о статусе их заказа, дадут обратную связь.</p>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/5.png" class="img-fluid b-repeat__img" alt="">
+						</div>
+					</div>
+					<div class="row align-items-center mb-5">
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/6.png" class="img-fluid b-repeat__img" alt="">
+						</div>
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">CRM-инструменты маркетолога</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">CRM-маркетинг даёт возможность рассказывать разным клиентам об интересных предложениях, акциях к праздникам и сезонных распродажах по-разному.</p>
+								<p class="py-2">В распоряжении маркетологов конструктор рекламных email-рассылок, генератор повторных продаж, массовых sms-оповещений и автоматических звонков на телефоны клиентов, инструментарий для создания лендингов.</p>
+							</div>
+							<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
+						</div>
+						
+					</div>
+	
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Настройка сервиса — под вашим контролем</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">Вы самостоятельно размещаете 1C-Битрикс24 на серверах компании или в датацентре и следите за скоростью и надежностью его работы. Для вашего удобства компания 1С-Битрикс предоставляет готовые образы веб-окружения для наиболее популярных сред виртуализации.</p>
+								<p class="py-2">При переходе с облачной версии в «коробку» все данные сохраняются.</p>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/7.jpg" class="img-fluid b-repeat__img" alt="">
+						</div>
+					</div>
+					<div class="row align-items-center mb-5">
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/8.jpg" class="img-fluid b-repeat__img" alt="">
+						</div>
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Открытый исходный код</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">Своими силами или с привлечением интеграторов можно дорабатывать интерфейс и функциональность 1С-Битрикс24 под индивидуальные потребности и бизнес-логику вашей компании без ограничений.</p>
+							</div>
+							<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
+						</div>
+						
+					</div>
+	
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Веб-кластер</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">Коробочная версия болеее подходит для крупных организаций, проектов с большим объемом данных и большим количеством пользователей за счет возможности использования модуля «Веб-кластер». Это комбинация технологических решений, которые позволяют распределить один портал на несколько серверов, решая тем самым несколько задач: обеспечение высокой доступности портала, его масштабирование в условиях возрастающей нагрузки, балансирование нагрузки, трафика, данных между несколькими серверами.</p>
+								<p class="py-2">Веб-кластер, наряду с другими возможностями 1С-Битрикс24 для крупных заказчиков, доступен в редакции Энтерпрайз.</p>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/9.png" class="img-fluid b-repeat__img" alt="">
+						</div>
+					</div>
+					<div class="row align-items-center mb-5">
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/10.jpg" class="img-fluid b-repeat__img" alt="">
+						</div>
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Виртуальная машина</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">Используйте бесплатный и настроенный для оптимальной работы с продуктами 1С-Битрикс наш виртуальный сервер. Продукт включает в себя операционную систему, веб-сервер, базу данных, firewall, почтовый сервер, а также большое число настроек, от которых зависит надежность, производительность и безопасность веб-проекта.</p>
+								<p class="py-2">На Виртуальной машине возможно запустить как новый, так и перенести на нее уже готовый проект.</p>
+							</div>
+							<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
+						</div>
+						
+					</div>
+	
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Кастомизация</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">Битрикс24 позаботился о том, чтобы пользователь имел возможность менять дизайн интерфейса согласно общего стиля своей компании или предписаниям разработанного брендбука без каких-либо ограничений.</p>
+								<p class="py-2">Выгода такой кастомизации — вы покупаете обычный типовой 1C-Битрикс24 и сами создаёте имидж вашей компании, делая 1C-Битрикс24 уже совершенно индивидуальным.</p>
+							</div>
+							<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
+						</div>
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/6.png" class="img-fluid b-repeat__img" alt="">
+						</div>
+					</div>
+					<div class="row align-items-center mb-5">
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0 overflow-hidden">
+							<img src="img/repeat/11.jpg" class="img-fluid b-repeat__img" alt="">
+						</div>
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Когда офисы в разных городах</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">Если у вас есть филиалы, которым необходимо иметь свой внутренний сервис и при этом координировать работу со всей компанией, используйте многодепартаментность</p>
+								<p class="py-2">Многодепартаментность, наряду с другими возможностями 1С-Битрикс24 для крупных заказчиков доступна в редакции Энтерпрайз.</p>
+							</div>
+							<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
+						</div>
+						
+					</div>
+	
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Маркетплейс</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">Наши партнёры разработали более 2 000 готовых решений на платформе 1С-Битрикс: от небольших компонентов и модулей до готовых интернет-магазинов и информационных систем.</p>
+								<p class="py-2">Каталог Маркетплейс предназначен только для коробочной версии Битрикс24 и предлагает готовые решения как для бизнеса, так и для государственных и бюджетных организаций.</p>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/12.png" class="img-fluid b-repeat__img" alt="">
+						</div>
+					</div>
+					<div class="row align-items-center mb-5">
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/13.png" class="img-fluid b-repeat__img" alt="">
+						</div>
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Когда офисы в разных городах</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">На сегодняшний момент мы предлагаем три редакции 1С-Битрикс24: <span class="b-repeat__span"><span class="fw-bold">Интернет-магазин + CRM</span> — все необходимые инструменты для организации работы отдела до 12 человек и автоматизации продаж; <span class="b-repeat__span"><span class="fw-bold">Корпоративный портал</span> — это корпоративный Битрикс24 на вашем сервере с индивидуальными настройками;</span></span> <span class="b-repeat__span"><span class="fw-bold">Энтерпрайз</span> — редакция для крупных компаний от 500 сотрудников, с многодепартаментностью, возможностями масштабирования и отказоуйстойчивости, с максимальным уровнем поддержки от 1С-Битрикс.</span></p>
+							</div>
+						</div>
+						
+					</div>
+	
+					<div class="row align-items-center">
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Рекомендуем попробовать</h2>
+							<div class="b-repeat__text">
+								<p class="py-2">Прежде, чем покупать «коробку» Битрикс24, протестируйте её возможности в своей компании. После 30 дней испытания вы сможете купить лицензию и продолжить работу.</p>
+							</div>
+							<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
+						</div>
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/14.jpg" class="img-fluid b-repeat__img" alt="">
+						</div>
+					</div>
+					<div class="row align-items-center mb-5">
+						<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
+							<img src="img/repeat/15.png" class="img-fluid" alt="">
+						</div>
+						<div class="col-12 col-md-6 order-1 order-md-0">
+							<h2 class="b-repeat__title">Коробочная версия Битрикс24</h2>
+							<div class="b-repeat__text">
+								<ul>
+									<li>Размещение на вашем сервере</li>
+									<li>Дополнительный функционал</li>
+									<li>Возможность доработки</li>
+								</ul>
+							</div>
+							<button type="button" class="btn b-btn-blue fw-light text-nowrap px-3 text-white text-uppercase" data-bs-toggle="modal" data-bs-target="#freeDownload">Выбрать редакцию и купить</button>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<section class="table">
+				<div class="container">
+					<div class="row border-bottom">
+						<div class="col-12 col-lg-4 b-table__title">
+							Безопасность
+						</div>
+						<div class="col-12 col-md-6 col-lg-4 b-table__links">
+							<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="1">Проактивная защита</a>
+							<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="2">Сертификаты</a>
+							<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="3">Технология SiteUpdate</a>
+							<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="4">Аудит безопасности</a>
+							<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="5">Нагрузочное тестирование</a>
+							<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="6">Интеграция с «1С»</a>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4 b-table__links">
+							<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="7">Архитектура</a>
+							<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="8">Необходимость защиты</a>
+							<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="9">Веб-окружение</a>
+							<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="10">Двухфакторная авторизация</a>
+							<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="11">Интеграция с внешними сервисами</a>
+						</div>
+					</div>
+					<div class="row align-items-center border-bottom">
+						<div class="col-12 col-lg-4 b-table__title">Требования</div>
+	
+						<div class="col-12 col-md-6 col-lg-4 b-table__links">
+							<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="12">Технические требования</a>
+						</div>
+					</div>
+					<div class="row align-items-center border-bottom">
+						<div class="col-12 col-lg-4 b-table__title">Документация</div>
+	
+						<div class="col-12 col-md-6 col-lg-4 b-table__links">
+							<a class="btn pb-1 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="13">Документация по Битрикс24 в коробке</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="floor">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 text-center py-5">
+							<h2 class="b-repeat__title mb-4">Более 12 000 000 компаний зарегистрировано в Битрикс24 <br> Присоединяйтесь!</h2>
+							<button type="button" class="btn b-btn-green px-4" data-bs-toggle="modal" data-bs-target="#freeDownload">Создать бесплатно</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<section class="price" id="price">
+			<div class="container mb-5">
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div class="card h-100 b-card">
+							<div class="card-body text-center">
+								<div class="b-card__head py-4 mb-4">
+									<h5 class="card-title">Название тарифа</h5>
+									<h6 class="card-subtitle mb-2 text-muted">Для чего тариф</h6>
+								</div>
+								<div class="b-card__condition border-bottom">
+									<div class="b-card__condition-users"><span>100</span> <br> пользователей</div>
+									<div class="b-card__condition-coast"><span class="d-block">11190 &#8381;/мес.</span> <span class="d-inline-block">за всех пользователей</span></div>
+									<button type="button" class="btn b-btn-blue px-3 mt-4 mb-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
+									<p class="b-card__condition-amount">5 GB</p>
+								</div>
+								<div class="b-card__serviceses">
+
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100">
+							
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100">
+							
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="laptop position-relative overflow-hidden">
-			<img src="img/laptop/left-flower.png" class="position-absolute top-0 start-0 d-none d-sm-block" alt="">
-			<div class="container position-relative py-5">
-				<div class="row align-items-center">
-					<div class="col-12 col-lg-6">
-						<h1 class="b-section__title pb-5">Расширяет возможности</h1>
-						<div class="b-laptop__cards d-flex flex-wrap">
-							<div class="col-6 b-laptop__card px-3">
-								<div class="b-laptop__card-picture"><i class="bi bi-coin"></i></div>
-								<p class="b-laptop__card-text">Устанавливается на сервер компании или своего провайдера</p>
-							</div>
-							<div class="col-6 b-laptop__card px-3">
-								<div class="b-laptop__card-picture"><i class="bi bi-graph-up"></i></div>
-								<p class="b-laptop__card-text">Индивидуальные настройки бизнес-логики и интерфейса</p>
-							</div>
-							<div class="col-6 b-laptop__card px-3">
-								<div class="b-laptop__card-picture"><i class="bi bi-printer"></i></div>
-								<p class="b-laptop__card-text">Больше возможностей и интеграций, чем в облачной версии</p>
-							</div>
-							<div class="col-6 b-laptop__card px-3">
-								<div class="b-laptop__card-picture"><i class="bi bi-database-down"></i></div>
-								<p class="b-laptop__card-text">При переходе с облачного Битрикс24 данные сохраняются</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-lg-6 d-none d-lg-block">
-						<img src="img/laptop/right-laptop.png" class="" alt="">
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="repeat py-4">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Внутренние коммуникации</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">1C-Битрикс24 (коробочная версия Битрикс24) — это цифровое рабочее пространство для вашей компании. Ставьте и контролируйте задачи, отправляйте файлы и голосовые сообщения, общайтесь в чате, обсуждайте планы в профильных группах и принимайте взвешенные решения.</p>
-							<p class="py-2">Будьте всегда на связи и в курсе событий: используйте для работы десктопное и мобильное приложения.</p>
-						</div>
-					</div>
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/1.png" class="img-fluid b-repeat__img" alt="">
-					</div>
-				</div>
-				<div class="row align-items-center mb-5">
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/2.png" class="img-fluid b-repeat__img" alt="">
-					</div>
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">HR-менеджмент</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">1C-Битрикс24 помогает бизнесу организовать лёгкий вход нового сотрудника в коллектив, быстрое знакомство со структурой компании, оповещение всей команды о появлении нового коллеги.</p>
-							<p class="py-2">1C-Битрикс24 просит нового человека сразу заполнить Профиль, разместить фотографию, рассказать о себе. Новый сотрудник вступает в Группы по роду его занятий и по своим интересам, находит единомышленников.</p>
-						</div>
-						<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
-					</div>
-					
-				</div>
-
-				<div class="row align-items-center">
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Проектный менеджмент</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">Координируйте усилия команды с помощью проектных инструментов 1C-Битрикс24. Определяйте роли и права доступа каждого. Планируйте этапы, храните все документы на Диске, ведите календарь, общайтесь в чате Проекта.</p>
-							<p class="py-2">Проекты, созданные в 1C-Битрикс24, обязательно будут завершены в срок и с лучшим результатом.</p>
-						</div>
-					</div>
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/3.png" class="img-fluid b-repeat__img" alt="">
-					</div>
-				</div>
-				<div class="row align-items-center mb-5">
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/4.png" class="img-fluid b-repeat__img" alt="">
-					</div>
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">CRM и управление клиентской базой</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">В CRM вы ведёте своих клиентов по всем этапам жизненного цикла, изучаете их поведение, создаёте сегменты по заданным критериям, вовремя даёте всю необходимую для них информацию.</p>
-							<p class="py-2">Звоните, пишите клиенту в один клик прямо из карточки CRM, угадывайте его желания и делайте выгодные предложения.</p>
-						</div>
-						<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
-					</div>
-					
-				</div>
-
-				<div class="row align-items-center">
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Автоматизация продаж</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">Автоматизируйте продажи с помощью роботов и бизнес-процессов. Делегируйте важную, трудоёмкую и рутинную работу с клиентом 1C-Битрикс24.</p>
-							<p class="py-2">У ваших менеджеров автоматически появятся новые задачи и вовремя придут напоминания. А клиенты получат все сообщения о статусе их заказа, дадут обратную связь.</p>
-						</div>
-					</div>
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/5.png" class="img-fluid b-repeat__img" alt="">
-					</div>
-				</div>
-				<div class="row align-items-center mb-5">
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/6.png" class="img-fluid b-repeat__img" alt="">
-					</div>
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">CRM-инструменты маркетолога</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">CRM-маркетинг даёт возможность рассказывать разным клиентам об интересных предложениях, акциях к праздникам и сезонных распродажах по-разному.</p>
-							<p class="py-2">В распоряжении маркетологов конструктор рекламных email-рассылок, генератор повторных продаж, массовых sms-оповещений и автоматических звонков на телефоны клиентов, инструментарий для создания лендингов.</p>
-						</div>
-						<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
-					</div>
-					
-				</div>
-
-				<div class="row align-items-center">
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Настройка сервиса — под вашим контролем</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">Вы самостоятельно размещаете 1C-Битрикс24 на серверах компании или в датацентре и следите за скоростью и надежностью его работы. Для вашего удобства компания 1С-Битрикс предоставляет готовые образы веб-окружения для наиболее популярных сред виртуализации.</p>
-							<p class="py-2">При переходе с облачной версии в «коробку» все данные сохраняются.</p>
-						</div>
-					</div>
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/7.jpg" class="img-fluid b-repeat__img" alt="">
-					</div>
-				</div>
-				<div class="row align-items-center mb-5">
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/8.jpg" class="img-fluid b-repeat__img" alt="">
-					</div>
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Открытый исходный код</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">Своими силами или с привлечением интеграторов можно дорабатывать интерфейс и функциональность 1С-Битрикс24 под индивидуальные потребности и бизнес-логику вашей компании без ограничений.</p>
-						</div>
-						<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
-					</div>
-					
-				</div>
-
-				<div class="row align-items-center">
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Веб-кластер</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">Коробочная версия болеее подходит для крупных организаций, проектов с большим объемом данных и большим количеством пользователей за счет возможности использования модуля «Веб-кластер». Это комбинация технологических решений, которые позволяют распределить один портал на несколько серверов, решая тем самым несколько задач: обеспечение высокой доступности портала, его масштабирование в условиях возрастающей нагрузки, балансирование нагрузки, трафика, данных между несколькими серверами.</p>
-							<p class="py-2">Веб-кластер, наряду с другими возможностями 1С-Битрикс24 для крупных заказчиков, доступен в редакции Энтерпрайз.</p>
-						</div>
-					</div>
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/9.png" class="img-fluid b-repeat__img" alt="">
-					</div>
-				</div>
-				<div class="row align-items-center mb-5">
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/10.jpg" class="img-fluid b-repeat__img" alt="">
-					</div>
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Виртуальная машина</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">Используйте бесплатный и настроенный для оптимальной работы с продуктами 1С-Битрикс наш виртуальный сервер. Продукт включает в себя операционную систему, веб-сервер, базу данных, firewall, почтовый сервер, а также большое число настроек, от которых зависит надежность, производительность и безопасность веб-проекта.</p>
-							<p class="py-2">На Виртуальной машине возможно запустить как новый, так и перенести на нее уже готовый проект.</p>
-						</div>
-						<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
-					</div>
-					
-				</div>
-
-				<div class="row align-items-center">
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Кастомизация</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">Битрикс24 позаботился о том, чтобы пользователь имел возможность менять дизайн интерфейса согласно общего стиля своей компании или предписаниям разработанного брендбука без каких-либо ограничений.</p>
-							<p class="py-2">Выгода такой кастомизации — вы покупаете обычный типовой 1C-Битрикс24 и сами создаёте имидж вашей компании, делая 1C-Битрикс24 уже совершенно индивидуальным.</p>
-						</div>
-						<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
-					</div>
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/6.png" class="img-fluid b-repeat__img" alt="">
-					</div>
-				</div>
-				<div class="row align-items-center mb-5">
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0 overflow-hidden">
-						<img src="img/repeat/11.jpg" class="img-fluid b-repeat__img" alt="">
-					</div>
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Когда офисы в разных городах</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">Если у вас есть филиалы, которым необходимо иметь свой внутренний сервис и при этом координировать работу со всей компанией, используйте многодепартаментность</p>
-							<p class="py-2">Многодепартаментность, наряду с другими возможностями 1С-Битрикс24 для крупных заказчиков доступна в редакции Энтерпрайз.</p>
-						</div>
-						<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
-					</div>
-					
-				</div>
-
-				<div class="row align-items-center">
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Маркетплейс</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">Наши партнёры разработали более 2 000 готовых решений на платформе 1С-Битрикс: от небольших компонентов и модулей до готовых интернет-магазинов и информационных систем.</p>
-							<p class="py-2">Каталог Маркетплейс предназначен только для коробочной версии Битрикс24 и предлагает готовые решения как для бизнеса, так и для государственных и бюджетных организаций.</p>
-						</div>
-					</div>
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/12.png" class="img-fluid b-repeat__img" alt="">
-					</div>
-				</div>
-				<div class="row align-items-center mb-5">
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/13.png" class="img-fluid b-repeat__img" alt="">
-					</div>
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Когда офисы в разных городах</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">На сегодняшний момент мы предлагаем три редакции 1С-Битрикс24: <span class="b-repeat__span"><span class="fw-bold">Интернет-магазин + CRM</span> — все необходимые инструменты для организации работы отдела до 12 человек и автоматизации продаж; <span class="b-repeat__span"><span class="fw-bold">Корпоративный портал</span> — это корпоративный Битрикс24 на вашем сервере с индивидуальными настройками;</span></span> <span class="b-repeat__span"><span class="fw-bold">Энтерпрайз</span> — редакция для крупных компаний от 500 сотрудников, с многодепартаментностью, возможностями масштабирования и отказоуйстойчивости, с максимальным уровнем поддержки от 1С-Битрикс.</span></p>
-						</div>
-					</div>
-					
-				</div>
-
-				<div class="row align-items-center">
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Рекомендуем попробовать</h2>
-						<div class="b-repeat__text">
-							<p class="py-2">Прежде, чем покупать «коробку» Битрикс24, протестируйте её возможности в своей компании. После 30 дней испытания вы сможете купить лицензию и продолжить работу.</p>
-						</div>
-						<button type="button" class="btn b-btn-blue px-3 text-white" data-bs-toggle="modal" data-bs-target="#freeDownload">Скачать демо</button>
-					</div>
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/14.jpg" class="img-fluid b-repeat__img" alt="">
-					</div>
-				</div>
-				<div class="row align-items-center mb-5">
-					<div class="col-12 col-md-6 mx-3 mx-md-0 my-4 my-md-0">
-						<img src="img/repeat/15.png" class="img-fluid" alt="">
-					</div>
-					<div class="col-12 col-md-6 order-1 order-md-0">
-						<h2 class="b-repeat__title">Коробочная версия Битрикс24</h2>
-						<div class="b-repeat__text">
-							<ul>
-								<li>Размещение на вашем сервере</li>
-								<li>Дополнительный функционал</li>
-								<li>Возможность доработки</li>
-							</ul>
-						</div>
-						<button type="button" class="btn b-btn-blue fw-light text-nowrap px-3 text-white text-uppercase" data-bs-toggle="modal" data-bs-target="#freeDownload">Выбрать редакцию и купить</button>
-					</div>
-					
-				</div>
-			</div>
-		</section>
-		<section class="table">
-			<div class="container">
-				<div class="row border-bottom">
-					<div class="col-12 col-lg-4 b-table__title">
-						Безопасность
-					</div>
-					<div class="col-12 col-md-6 col-lg-4 b-table__links">
-						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="1">Проактивная защита</a>
-						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="2">Сертификаты</a>
-						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="3">Технология SiteUpdate</a>
-						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="4">Аудит безопасности</a>
-						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="5">Нагрузочное тестирование</a>
-						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="6">Интеграция с «1С»</a>
-					</div>
-					<div class="col-12 col-md-6 col-lg-4 b-table__links">
-						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="7">Архитектура</a>
-						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="8">Необходимость защиты</a>
-						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="9">Веб-окружение</a>
-						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="10">Двухфакторная авторизация</a>
-						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="11">Интеграция с внешними сервисами</a>
-					</div>
-				</div>
-				<div class="row align-items-center border-bottom">
-					<div class="col-12 col-lg-4 b-table__title">Требования</div>
-
-					<div class="col-12 col-md-6 col-lg-4 b-table__links">
-						<a class="btn pb-3 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="12">Технические требования</a>
-					</div>
-				</div>
-				<div class="row align-items-center border-bottom">
-					<div class="col-12 col-lg-4 b-table__title">Документация</div>
-
-					<div class="col-12 col-md-6 col-lg-4 b-table__links">
-						<a class="btn pb-1 d-block text-start b-table__link" data-bs-toggle="offcanvas" href="#offcanvasTableLink" role="button" aria-controls="offcanvasTableLink" data-table-idLink="13">Документация по Битрикс24 в коробке</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
 	</main>
 	<footer class="footer">
 
@@ -389,7 +436,7 @@
 			 </ul>
 		  </div>
 		</div>
-	 </div>
+	</div>
 
 	<script src="vendors/bootstrap.bundle.min.js"></script>
 	<script src="js/app.js"></script>

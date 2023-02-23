@@ -61,7 +61,7 @@ a.nav-link {
 }
 
 /* head */
-.head {
+.head, .footer {
 	background: #409eef;
 	background: linear-gradient(135deg, #2fc7f7 0%, #409eef 100%);
 }
@@ -181,7 +181,33 @@ a.b-table__link {
 		margin-right: 0.75em;
 		background: url("../img/table/icon-bullit.svg") no-repeat;
 		line-height: 0;
-		// vertical-align: middle;
+	}
+}
 
+/* price */
+.b-card {
+	border-radius: 18px;
+	background-color: rgba(202,242,255,0.45);
+}
+.b-card__head {
+	background-color: rgba(33,189,238,0.15);
+	border-radius: 18px 18px 3px 3px;
+}
+.b-card__condition-users {
+	font-size: 20px;
+	font-weight: 500;
+	span {
+		font-weight: 600;
+		font-size: 24px;
+	}
+}
+.b-card__condition-coast {
+	color: #0050af;
+	font-size: 21px;
+	font-weight: 600;
+	span.d-inline-block {
+		font-size: 12px;
+		border-bottom: 1px dashed #0050af;
+		opacity: .8;
 	}
 }
