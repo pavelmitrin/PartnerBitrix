@@ -1,6 +1,3 @@
-const scrollSpy = new bootstrap.ScrollSpy(document.body, {
-	target: '#collapseMenu'
- });
 
 /* change active link header */
 const headerLinks = document.querySelectorAll(".header .navbar-nav .nav-link");
@@ -24,6 +21,36 @@ function checkWidthToggleClassToggler () {
 	}
 }
 
+const moreInfoBlock = document.querySelector("#moreinfo");
+const Visible = function(target) {
+	let targetPosition = {
+		top: window.pageYOffset + target.getBoundingClientRect().top,
+      left: window.pageXOffset + target.getBoundingClientRect().left,
+      right: window.pageXOffset + target.getBoundingClientRect().right,
+      bottom: window.pageYOffset + target.getBoundingClientRect().bottom
+	},
+	windowPosition = {
+		top: window.pageYOffset,
+      left: window.pageXOffset,
+      right: window.pageXOffset + document.documentElement.clientWidth,
+      bottom: window.pageYOffset + document.documentElement.clientHeight
+	};
+
+	link = document.querySelector(`.nav-link[href="#${target.id}"]`);
+	if (targetPosition.bottom > windowPosition.top && targetPosition.top < windowPosition.bottom && targetPosition.right > windowPosition.left && targetPosition.left < windowPosition.right) {
+		link.classList.add("active");
+	} else {
+		link.classList.remove("active");
+	}
+
+}
+
+window.addEventListener('scroll', function() {
+	Visible (moreInfoBlock);
+ });
+ 
+ // А также запустим функцию сразу. А то вдруг, элемент изначально видно
+ Visible (moreInfoBlock);
 
 
  // Fetch all the forms we want to apply custom Bootstrap validation styles to

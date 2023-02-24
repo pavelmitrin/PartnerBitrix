@@ -329,3 +329,30 @@ a.b-table__link::before {
   top: calc(50% - 6px);
   right: -40px;
 }
+
+/* carousel */
+.b-carousel__radius {
+  border-radius: 30px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  opacity: 1;
+}
+
+.b-carousel__prev, .b-carousel__next {
+  background-image: none !important;
+  border-radius: 50%;
+  color: #0050af;
+  opacity: 1 !important;
+}
+.b-carousel__prev i, .b-carousel__next i {
+  font-size: 24px;
+}
+
+.b-carousel__prev i::before {
+  transform: rotate(90deg);
+}
+
+.b-carousel__next i::before {
+  transform: rotate(-90deg);
+}
